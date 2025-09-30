@@ -1,0 +1,37 @@
+name: tflite_object_detection
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.11.0
+  camera: ^0.11.1
+  image: ^4.5.4
+  path_provider: ^2.1.5 
+  image_picker: ^1.1.2
+  exif: ^3.3.0
+  combine: ^0.5.7
+  clickable_list_wheel_view: ^0.2.0
+  tap_debouncer: ^2.2.0
+  animated_icon: ^0.0.9
+  path: ^1.9.1
+  image_gallery_saver_plus: ^4.0.1
+  gallery_saver_plus: ^3.2.4
+  opencv_core: ^1.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/
